@@ -5,18 +5,15 @@ public class TaskManager {
 
     public TaskManager()
     {
-        tasks = new ArrayList<>(List.of());
 //        String[] newlist = {};  this is what i know
     };
 
     public void addTask(String task)
     {
-        tasks.add(task);
     }
 
     public List<String> listTasks()
     {
-        return tasks;
     }
 
     public void deleteTask(String task){
